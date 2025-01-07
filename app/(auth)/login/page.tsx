@@ -1,8 +1,10 @@
-import React from 'react'
+import AuthForm from "@/app/components/AuthForm"
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <section className="flex-center size-full max-sm:px-6">
+      <AuthForm type="login"/>
+    </section>
   )
 }
 
